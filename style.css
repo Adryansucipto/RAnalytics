@@ -212,7 +212,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
         height: 100px;
         background: rgb(255, 137, 2);
         color: white;
@@ -222,8 +222,29 @@ footer{
     }
     
     img{
-        width: 50%;
+        width: 100%;
         height: 250px;
+    }
+
+    #logo{
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+    
+    #Contact a{
+        font-size: 15px;
+        font-weight: bold;
+        padding-right: 50px;
+        color: white;
+        transition: 2s all;
+    }
+    
+    #Contact a:hover{
+        font-size: 15px;
+        font-weight: bold;
+        padding-right: 50px;
+        color: rgb(27, 86, 248);
     }
   }
   
@@ -242,7 +263,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
         height: 100px;
         background: rgb(255, 137, 2);
         color: white;
@@ -252,9 +273,31 @@ footer{
     }
     
     img{
-        width: 50%;
+        width: 100%;
         height: 250px;
     }
+
+    #logo{
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+    
+    #Contact a{
+        font-size: 15px;
+        font-weight: bold;
+        padding-right: 50px;
+        color: white;
+        transition: 2s all;
+    }
+    
+    #Contact a:hover{
+        font-size: 15px;
+        font-weight: bold;
+        padding-right: 50px;
+        color: rgb(27, 86, 248);
+    }
+    
   }
   
   
